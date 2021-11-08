@@ -80,53 +80,24 @@ MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
 
 PM_START_TEXT = """
- Hey There, I'm [Free De La Hoya](https://telegra.ph/file/c71b7f255824195618a9d.jpg)
-I Am An Cartoon Themed Group Management Bot.
-Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communities.
+ Hey how are u
 """
 
 buttons  = [
     [
-        InlineKeyboardButton(
-            text="༒ 𝙰𝙳𝙳 Free De La Hoya 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ༒",url="http://t.me/FreeDeLaHoyarobot?startgroup=true"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="༺ 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 & 𝙷𝙴𝙻𝙿 ༻", callback_data="help_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/PegasusUpdates"
-        ),
-      
-        InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="https://t.me/VALTAOITHEBOT"
-        ),
-    ],
-         
-    [
-       InlineKeyboardButton(
-           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/PegasusSupportOfficial"
-         ),
-    ],
-    [
       InlineKeyboardButton(
-           text="彡 OWNER  彡", url="https://t.me/Rohith_no_1"
+           text="彡 OWNER  彡", url="https://t.me/NOOBGUY_OP"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey there! My name is [FREE DE LA HOYA!](https://telegra.ph/file/c58844e157400ec912c82.jpg) 
-I'm a Half Elf and help admins manage their groups with Some Powerful Features! 
-\n Have a look at the following for an idea of some of the things I can help you with."""
+Hey there!."""
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
-I'd Like you to Donate that Money to my owner ‣ @ROHITH_NO_1. 
+I'd Like you to Donate that Money to my owner ‣ @NOOBGUY_OP. 
 Thanks!
 """
 
@@ -243,17 +214,15 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            MRJOKER_IMAGS, caption= "<code>Free De La Hoya ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+            MRJOKER_IMAGS, caption= "<code> I'm here ғᴏʀ ʏᴏᴜ❤\n I haven't sleeped since : </code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
+                  
                   [
-                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PegasusSupportOfficial")
-                  ],
-                  [
-                  InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1")
+                  InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/noobguy_op")
                   ]
                 ]
             ),
